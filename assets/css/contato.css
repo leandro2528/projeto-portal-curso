@@ -1,0 +1,35 @@
+.contato {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: #000;
+}
+
+.contato-int {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    max-width: 1320px;
+}
+
+.contato-email h6, .contato-telefone  h6, .contato-rede-socias h6 {
+    color: #fff;
+    font-size: 16px;
+}
+
+.contato-telefone p, .contato-email p {
+    color: #fff;
+    font-size: 14px;
+}
+
+.redes-socias-icon {
+    display: flex;
+}
+
+.redes-socias-icon img {
+    width: 20px;
+    margin: 6px;
+    
+}
