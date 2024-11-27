@@ -1,24 +1,73 @@
 .footer {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 160px;
+    flex-direction: column;
+    min-height: 200px;
     background-color: #000;
 }
 
-.footer-int {
+.footer-rede-sociais {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    height: 60px;
     width: 100%;
-    max-width: 1320px;
-    min-height: 160px;
+    background-color: #23ecce;
 }
 
-.footer-int p {
+.footer-icons img {
+    width: 26px;
+    margin-left: 16px;
+    transition: all ease 1s;
+}
+
+.footer-icons img:hover {
+    transform: translateY(-8px);
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.footer-intitucional ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-intitucional a {
+    text-decoration: none;
+    color: #23ecce;
+    line-height: 30px;
+}
+
+.footer-endereco h6 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #23ecce;
+}
+
+.footer-endereco p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #23ecce;
+}
+
+.footer-copy p {
+    color: #ddd;
+    margin-top: 40px;
+    font-size: 12px;
     text-align: center;
-    font-size: 14px;
-    color: #fff;
+    margin-bottom: 20px;
 }
 
+.seta-cima img {
+    width: 60px;
+    position: fixed;
+    z-index: 99;
+    bottom: 10px;
+    right: 10px;
+}

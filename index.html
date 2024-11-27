@@ -36,16 +36,19 @@
                     <ul class="nav">
 
                         <li class="nav-item">
-                            <a class="nav-link" href="">Início</a>
+                            <a class="nav-link" href="#inicio">Início</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Sobre</a>
+                            <a class="nav-link" href="#sobre">Sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Cursos</a>
+                            <a class="nav-link" href="#trilhas">Cursos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Contato</a>
+                            <a class="nav-link" href="#faq">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
                         </li>
                         <li class="nav-item">
                             <button>Inscrições</button>
@@ -56,7 +59,7 @@
             </div>
         </div>
     </header>
-    <div class="banner-main">
+    <div class="banner-main" id="inicio">
         <div class="banner-main-box">
             <div class="banner-main-box-int">
                 <div class="banner-main-box-title">Dê os primeiros <br/> passos no <span class="gradient-text"> mercado de tecnologia </span> </div>
@@ -75,7 +78,7 @@
         </div>
     </div>
 
-    <section class="o-que-e-capacita">
+    <section class="o-que-e-capacita" id="sobre">
         <div class="o-que-e-capacita-int">
             <div class="o-que-e-capacita-card-left">
                 <h2>O que é o Capacita Brasil?</h2>
@@ -92,7 +95,7 @@
         </div>
     </section>
 
-    <section class="trilha-de-oferta">
+    <section class="trilha-de-oferta" id="trilhas">
         <div class="trilha-de-oferta-int">
             <div class="trilha-de-oferta-title">Trilhas ofertadas pelo IFCE</div>
             <div class="trilha-de-oferta-card">
@@ -219,9 +222,9 @@
         </div>
     </section>
 
-    <section class="perguntas">
+    <section class="perguntas" id="faq">
         <div class="perguntas-container">
-            <h2>perguntas - Perguntas Frequentes</h2>
+            <h2>Perguntas Frequentes</h2>
     
             <div class="perguntas-box">
 
@@ -333,35 +336,96 @@
         </div>
     </section>
 
-    <section class="contato">
+    <section class="contato" id="contato">
         <div class="contato-int">
-            <div class="contato-telefone">
-                <h6>Telefone:</h6>
-                <p>(85)9 1100-2233</p>
+            <h2>Fale conosco</h2>
+
+            <div class="contato-form">
+                <form action="">
+
+                    <div class="form-group">
+                        <label class="form-title" for="">Nome</label>
+                        <input class="form-input" type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-title" for="">Email</label>
+                        <input class="form-input" type="emaul" class="form-control" id="email" placeholder="Digite seu email" required>
+                    </div>
+
+                    <div class="form-group">
+                       <button class="form-btn">Enviar</button>
+                    </div>
+
+                </form>
             </div>
-            <div class="contato-email">
-                <h6>Email</h6>
-                <p>leandrodev83@gmail.com</p>
-            </div>
-            <div class="contato-rede-socias">
-                <h6>Redes socias</h6>
-                <div class="redes-socias-icon">
-                    <div class="facebock"><img src="assets/img/facebook.png" alt=""></div>
-                    <div class="instagram"><img src="assets/img/instagram.png" alt=""></div>
-                    <div class="linkedin"><img src="assets/img/linkedin.png" alt=""></div>
-                    <div class="whatsapp"><img src="assets/img/whatsapp.png" alt=""></div>
-                </div>
-            </div>
+
         </div>
     </section>
     
     <footer class="footer">
-        <div class="footer-int">
+        <div class="footer-rede-sociais">
+            <div class="footer-title">Siga-nos em nossas redes socias</div>
+            <div class="footer-icons">
+                <a href=""><img src="assets/img/facebook.png" alt=""></a>
+                <a href=""><img src="assets/img/instagram.png" alt=""></a>
+                <a href=""><img src="assets/img/linkedin.png" alt=""></a>
+                <a href=""><img src="assets/img/whatsapp.png" alt=""></a>
+            </div>
+        </div>
+
+        <div class="footer-links">
+            <div class="footer-logo">
+                <img src="assets/img/logo-capacita-brasil.png" alt="">
+            </div>
+            <div class="footer-link">
+                <div class="footer-intitucional">
+                    <ul>
+                        <li>
+                            <a href="#inicio">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#sobre">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="#trilhas">Cursos</a>
+                        </li>
+                        <li>
+                            <a href="#faq">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-contato">
+                <div class="footer-endereco">
+                    <h6>Endereço</h6>
+                    <p>Av. sem nome, 123 - Ceará - CE</p>
+                </div>
+                <div class="footer-endereco">
+                    <h6>Telefone</h6>
+                    <p>(85) 9 1234-4321</p>
+                </div>
+
+                <div class="footer-endereco">
+                    <h6>Email</h6>
+                    <p>leandrodev33@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copy">
             <p>
-                Este projeto foi desenvolvido como parte da apresentação final do Módulo Básico do curso de Fullstack Development. O objetivo principal é consolidar os conhecimentos adquiridos ao longo do módulo, aplicando as tecnologias fundamentais de HTML, CSS e Git/GitHub em um ambiente prático.<br/>
-                Todas as imagens, textos e outros elementos utilizados neste projeto têm como único propósito servir de apoio ao estudo e aprendizado dos conceitos abordados no curso. Nenhum dos materiais foi utilizado com fins comerciais ou de divulgação externa. <br/> <br/> <span> &copy; Desenvolvido por Leandro Carvalho</span>
+                Todas as imagens, fotos ou qualquer conteúdo presente neste site são utilizados exclusivamente para fins de estudo. <br/> Este projeto foi desenvolvido como parte da avaliação final do módulo básico de HTML, CSS, Git e GitHub, visando consolidar <br/> os conhecimentos adquiridos durante o curso. 
+                O objetivo principal deste trabalho é demonstrar a aplicação prática das tecnologias básicas de <br/> desenvolvimento web, incluindo estruturação com HTML, estilização com CSS e controle de versões com Git e GitHub.
             </p>
-            
+            <p> &copy; 2024 - Desenvolvido por Leandro Carvalho </p>
+            <div class="seta-cima">
+                <a href="#inicio">
+                    <img src="assets/img/seta-para-cima.png" alt="Seta para cima">
+                </a>
+            </div>
         </div>
     </footer>
     
