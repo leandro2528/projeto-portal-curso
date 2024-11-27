@@ -1,15 +1,7 @@
 <h1>Projeto Prático: Portal de Cursos - Capacita Brasil</h1>
-<p> Este projeto é o resultado de um exercício prático do módulo básico de HTML, CSS e Git/GitHub, onde criamos uma página web simples, estruturada para representar o portal de cursos Capacita Brasil. </p></p>
+<p> Este projeto é o resultado de um exercício prático do módulo básico de HTML, CSS e Git/GitHub, onde criamos uma página web simples, estruturada para representar o portal de cursos Capacita Brasil. </p>
 
-📂 <h2>Organização do Projeto</h2>
-<h5<Projeto-Prático-Capacita-Brasil</h5>
-├── index.html          # Estrutura HTML principal
-├── style.css           # Estilos da página
-├── assets/             # Recursos do projeto
-│   ├── img/ 
-          └── imagem-exemplo.png
-│   ├── css/ 
-        └── style.css
+
 🎯 <h2>Objetivo</h2>
 O objetivo deste projeto é consolidar os aprendizados básicos em HTML, CSS e Git, aplicando conceitos fundamentais na construção de uma página funcional, com links, formulário e estrutura clara.
 
