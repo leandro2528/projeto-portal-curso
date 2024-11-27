@@ -1,0 +1,66 @@
+/* O QUE É CAPACITA */
+
+.o-que-e-capacita {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000;
+}
+
+.o-que-e-capacita-int {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    max-width: 1320px;
+}
+
+.o-que-e-capacita-card-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    padding: 40px;
+    border: 1px solid #4d6ef1; 
+    animation: borderAnimation 2s infinite; 
+    border-radius: 16px;
+    height: 400px;
+}
+
+.o-que-e-capacita-card-left h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.o-que-e-capacita-card-left p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.o-que-e-capacita-card-right {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    width: 40%;
+    height: 400px;
+    background: linear-gradient(45deg, #4d6ef1, #71ddee, #23ecce);
+    border-radius: 16px;
+    animation: cardAnimation 2s infinite; 
+}
+
+@keyframes cardAnimation {
+    0% {
+       border: 2px solid #4d6ef1;
+
+    }
+    50% {
+        border: 2px solid #71ddee;
+    }
+    100% {
+        border: 2px solid #23ecce;
+    }
+}

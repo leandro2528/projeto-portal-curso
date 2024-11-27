@@ -1,0 +1,83 @@
+
+/* TRILHA DE OFERTA */
+
+.trilha-de-oferta {
+    background-image: url('../img/banner-trilha.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.trilha-de-oferta-int {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trilha-de-oferta-title {
+    font-size: 70px;
+    font-weight: 800;
+    color: #23ecce;
+}
+
+.trilha-de-oferta-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1320px;
+}
+
+.trilha-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 450px;
+    border: 5px solid;
+    border-image: linear-gradient(45deg, #4d6ef1, #71ddee, #23ecce) 1;
+    border-radius: 30px;
+    margin-top: 40px;
+    padding: 0 20px;
+    background: linear-gradient(45deg, #4d6ef1, #71ddee, #23ecce);
+    background-size: 200%; 
+    background-position: left; 
+    transition: background-position 0.5s ease;
+    transition: all 1s ease-in;
+}
+
+.trilha-card:hover {
+    background-position: right;
+    transform: translatey(-10px);
+    cursor: pointer;
+}
+
+
+.trilha-card h2 {
+    color: #000;
+    text-align: center;
+}
+
+.trilha-card p {
+    margin-top: 10px;
+    color: #000;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.trilha-card button {
+    display: flex; 
+    padding: 10px 30px; 
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #4d6ef1, #71ddee, #23ecce);
+    background-size: 200%; 
+    background-position: left; 
+    transition: background-position 0.5s ease; 
+    cursor: pointer;
+    margin-top: 40px;
+}

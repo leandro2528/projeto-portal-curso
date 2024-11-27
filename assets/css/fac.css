@@ -1,0 +1,69 @@
+.perguntas-container {
+    max-width: 1320px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.perguntas-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.perguntas-item {
+    border: 5px solid;
+    border-image: linear-gradient(45deg, #4d6ef1, #71ddee, #23ecce) 1;
+    padding: 10px 20px;
+    margin: 10px 10px;
+    position: relative;
+}
+
+.perguntas-box {
+    display: flex;
+}
+
+.perguntas-checkbox {
+    display: none; /* Oculta o checkbox */
+}
+
+.perguntas-question {
+    display: block;
+    cursor: pointer;
+    font-size: 18px;
+    color: #007bff;
+    font-weight: bold;
+    padding: 10px 0;
+    position: relative;
+}
+
+.perguntas-question::after {
+    content: "+";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #007bff;
+    transition: transform 0.3s ease;
+}
+
+.perguntas-checkbox:checked .perguntas-question::after {
+    content: "-"; /* Troca o "+" por "-" */
+}
+
+.perguntas-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.perguntas-checkbox:checked ~ .perguntas-answer {
+    max-height: 100px; /* Define um valor suficiente para exibir o conteúdo */
+    padding-top: 10px;
+}
