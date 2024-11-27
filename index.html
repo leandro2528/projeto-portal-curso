@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="assets/css/cronograma.css">
     <link rel="stylesheet" href="assets/css/fac.css">
     <link rel="stylesheet" href="assets/css/parceiros.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/modal.css">
 </head>
 <body>
     <header class="header">
@@ -65,7 +67,7 @@
                 <div class="banner-main-button">
                     <button>
                         <img src="assets/img/icon-flecha.svg" alt="">
-                        <p>Conheça nossas trilçhas</p>
+                        <p>Conheça nossas trilha</p>
                     </button>
                 </div>
             </div>
@@ -97,20 +99,62 @@
                     <h2>Programação iOS</h2>
                     <p>Formação em design e desenvolvimento de apps para dispositivos móveis iOS através da metodologia de Aprendizagem Baseada em Desafios (Challenge Based Learning), com alunos criando apps próprios em equipe, apoiados por mentores.
                     </p>
-                    <button>+ Saiba mais</button>
+                    
+                    <input type="checkbox" id="modal-toggle1" class="modal-toggle1" hidden>
+
+                        <!-- Botão para abrir o modal -->
+                        <label for="modal-toggle1" class="btn-open-modal1"> + Saiba mais</label>
+
+                        <!-- Modal -->
+                        <div class="modal1">
+                            <div class="modal-content1">
+                                <h2>Programação iOS</h2>
+                                <p>Modal  HTML e CSS.</p>
+                                <label for="modal-toggle1" class="btn-close1">Fechar</label>
+                            </div>
+                        </div>
+
                 </div>
                 <div class="trilha-card">
                     <h2>Infraestrutura de Redes 5G</h2>
                     <p>Formação profissional para elaboração, implantação e gerenciamento de redes 5G, com foco nas temáticas de Introdução a Redes, Fiber To The Home (FTTH), Tecnologia 5G e, ao final do percurso, um Projeto Integrado, para que os alunos apliquem os conhecimentos adquiridos, sob orientação de mentores.
                     </p>
-                    <button>+ Saiba mais</button>
+                    
+                    <input type="checkbox" id="modal-toggle2" class="modal-toggle2" hidden>
+
+                        <!-- Botão para abrir o modal -->
+                        <label for="modal-toggle2" class="btn-open-modal2"> + Saiba mais</label>
+
+                        <!-- Modal -->
+                        <div class="modal2">
+                            <div class="modal-content2">
+                                <h2>Infraestrutura 5G</h2>
+                                <p>Modal HTML e CSS.</p>
+                                <label for="modal-toggle2" class="btn-close2">Fechar</label>
+                            </div>
+                        </div>
+
                 </div>
                 <div class="trilha-card">
                     <h2>Computação em Nuvem</h2>
                     <p>
                         Se você já se questionou sobre como funcionam os aplicativos de internet, o que é a nuvem, como ter acesso a ela ou o que é computação em nuvem, essa é a trilha certa para você. Ela tem o objetivo de formar profissionais capazes de analisar, projetar, implementar e integrar serviços através de plataformas em nuvem, alinhados com as ferramentas utilizadas pelo mercado. Você também vai aplicar os conhecimentos adquiridos em um projeto final, com o apoio de mentores.
                     </p>
-                    <button>+ Saiba mais</button>
+
+                    <input type="checkbox" id="modal-toggle3" class="modal-toggle3" hidden>
+
+                        <!-- Botão para abrir o modal -->
+                        <label for="modal-toggle3" class="btn-open-modal3"> + Saiba mais</label>
+
+                        <!-- Modal -->
+                        <div class="modal3">
+                            <div class="modal-content3">
+                                <h2>Programação iOS</h2>
+                                <p>Modal html e css</p>
+                                <label for="modal-toggle3" class="btn-close3">Fechar</label>
+                            </div>
+                        </div>
+
                 </div>
             </div>
         </div>
@@ -287,6 +331,16 @@
             </div>
         </div>
     </section>
+    
+    <footer class="footer">
+        <div class="footer-int">
+            <p>
+                Este projeto foi desenvolvido como parte da apresentação final do Módulo Básico do curso de Fullstack Development. O objetivo principal é consolidar os conhecimentos adquiridos ao longo do módulo, aplicando as tecnologias fundamentais de HTML, CSS e Git/GitHub em um ambiente prático.<br/>
+                Todas as imagens, textos e outros elementos utilizados neste projeto têm como único propósito servir de apoio ao estudo e aprendizado dos conceitos abordados no curso. Nenhum dos materiais foi utilizado com fins comerciais ou de divulgação externa. <br/> <br/> <span> &copy; Desenvolvido por Leandro Carvalho</span>
+            </p>
+            
+        </div>
+    </footer>
     
 
 </body>
