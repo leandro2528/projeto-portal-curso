@@ -1,0 +1,44 @@
+.parceiros {
+    display: flex;
+    justify-content: center;
+    min-height: 200px;
+    background-color: #000;
+    padding-top: 60px;
+}
+
+.parceiros-int {
+    min-height: 200px;
+    width: 100%;
+    max-width: 1320px;
+}
+
+.parceiros-box {
+    display: flex;
+    min-height: 200px;
+}
+
+.parceiros-executor {
+    width: 20%;
+}
+.parceiros-parceiros {
+    width: 80%;
+}
+
+.parceiros h6 {
+    color: #fff;
+    font-size: 16px;
+}
+
+.parceiros-logos {
+    display: flex;
+}
+
+.parceiros-parceiros img {
+    width: 160px;
+    margin: 0 20px;
+}
+
+.parceiros-executor img  {
+    width: 200px;
+}
+
