@@ -97,20 +97,32 @@
 
 .banner-main {
     background-image: url('../img/banner-principal.png');
-    height: calc(100vh - 80px);
+    height: calc(100vh - 80px); 
     background-position: bottom;
-    background-size: cover;
+    background-size: cover; 
+    /* overflow: hidden; */
 }
 
 .banner-main-box {
     display: flex;
     justify-content: center;
-    width: 100%;
-
+    /* width: 200%; */
     height: calc(100vh - 80px);
+    /* animation: slideAnimation 6s infinite; 
+    transition: transform 1s ease-in-out;  */
+}
+
+@keyframes slideAnimation {
+    0%, 50% {
+        transform: translateX(0); /* Primeiro slide visível */
+    }
+    50.01%, 100% {
+        transform: translateX(-50%); /* Segundo slide visível */
+    }
 }
 
 .banner-main-box-int {
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
